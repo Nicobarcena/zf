@@ -1,3 +1,10 @@
+import React, {  useEffect, useState } from 'react'
+import {Link} from "react-scroll"
+import "./Nav.css"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBars, faX } from '@fortawesome/free-solid-svg-icons'
+import { useScrollPosition } from '../Hooks/scrollPosition'
+
 const Nav = () => {
     const[navOpen, setNavOpen] = useState(false);
     const[windowDimension, setWindowDimension] = useState({
