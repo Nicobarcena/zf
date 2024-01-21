@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCircleArrowLeft, faCircleArrowRight } from '@fortawesome/free-solid-svg-icons'
 const Carrusel = () => {
     const listRef = useRef()
-    const [currentIdex, setcurrentIdex] = useState(0)
+    const [currentIdex, ssetcurrentIdex] = useState(0)
 
     useEffect(() => {
         const listNode = listRef.current;
