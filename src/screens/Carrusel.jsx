@@ -42,7 +42,7 @@ const Carrusel = () => {
                         {Imagenes.map((item) => {
                             return (
                                 <li key={item.id}>
-                                    <img src={item.Foto1} width={860} height={709} />
+                                    <img src={item.Foto1} width={860} height={709} alt='' />
                                 </li>
                             )
                         })}
