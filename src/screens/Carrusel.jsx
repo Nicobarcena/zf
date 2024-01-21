@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCircleArrowLeft, faCircleArrowRight } from '@fortawesome/free-solid-svg-icons'
 const Carrusel = () => {
     const listRef = useRef()
-    const [currentIdex, ssetcurrentIdex] = useState(0)
+    const [currentIdex, setcurrentIdex] = useState(0)
 
     useEffect(() => {
         const listNode = listRef.current;
@@ -21,7 +21,7 @@ const Carrusel = () => {
         if(direction === 'prev'){
             setcurrentIdex(curr => {
                 const isFristSlide = currentIdex === 0
-                return isFristSlide ? 0: curr - 1
+                return isFristSlide ? 0: curr -1
             })
         } else{
             const isLastSlide = currentIdex === Imagenes.lenght - 1
