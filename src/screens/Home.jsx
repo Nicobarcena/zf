@@ -4,7 +4,7 @@ import { Link } from 'react-scroll'
   
 const Home = () => {
   
-  return (
+ return (
     
     <div className='home'>  
     <div className='text'>
@@ -12,8 +12,8 @@ const Home = () => {
     <img src={require("../screens/comienzo.png")} alt="" />
     
     </div>
-      <div  className='ctaconteiner'>
-        <Link  className='llamar'
+      <div className='ctaconteiner'>
+        <Link className='llamar'
      to= "/Uniformes"
      smooth
      duration={500}
@@ -26,7 +26,7 @@ const Home = () => {
       </div>
     </div>
 
-  )
+ )
 }
 
 export default Home
