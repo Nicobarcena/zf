@@ -8,7 +8,7 @@
 .redes {
     display: flex;
     flex-direction: column;
-    
+    align-items: start;
     color: white;
     font-weight: 500;
     font-size: 1.3em;
