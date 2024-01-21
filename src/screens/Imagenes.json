@@ -1,0 +1,26 @@
+[
+    {
+        "id" :1,
+        "Foto1":"./img/activa.jpg.jpeg"
+    },
+    {
+        "id" :2,
+        "Foto1":"./img/deporte.jpg.jpeg"
+    },
+    {
+        "id" :3,
+        "Foto1":"./img/ecp.jpg.jpeg"
+    },
+    {
+        "id" :4,
+        "Foto1":"./img/estirar.jpg.jpeg"
+    },
+    {
+        "id" :5,
+        "Foto1":"./img/musica.jpg.jpeg"
+    },
+    {
+        "id" :6,
+        "Foto1":"./img/soga.jpg.jpeg"
+    }
+]

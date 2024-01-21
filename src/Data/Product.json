@@ -1,0 +1,32 @@
+[
+    {
+      "id":1,
+      "name": "Foja Zero Aguila",
+      "price": 10000,
+      "imgUrl": "./img/aguila.JPG"
+    },
+    {
+      "id":2,
+      "name": "Kettbell Azul",
+      "price": 12000,
+      "imgUrl": "./img/FojaZeroAzul.jpg"
+    },
+    {
+      "id":3,
+      "name": "Kettbell Negra",
+      "price": 12000,
+      "imgUrl": "./img/kbtnegra.JPG"
+    },
+    {
+      "id":4,
+      "name": "Kettbell Verde",
+      "price": 12000,
+      "imgUrl": "./img/ktbverde.JPG"
+    },
+    {
+      "id":5,
+      "name": "Kettbell Verde Oscuro",
+      "price": 12000,
+      "imgUrl": "./img/ktbverdeo.JPG"
+    }
+  ]
